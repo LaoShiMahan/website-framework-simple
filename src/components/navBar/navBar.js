@@ -6,8 +6,8 @@ export const NavBar = () => {
     return (
         <div className="nav-bar">
             <SearchBar />
-            <NavBtn className="home-nav-btn" title="Home" path="/" />
-            <NavBtn className="page-one-nav-btn" title="Page One" path="/pageOne" />
+            <NavBtn className="home" title="Home" path="/" />
+            <NavBtn className="page-one" title="Page One" path="/pageOne" />
         </div>
     );
 }

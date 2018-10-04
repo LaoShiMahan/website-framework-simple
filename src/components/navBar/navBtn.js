@@ -5,7 +5,7 @@ export const NavBtn = (props) => {
     return (
         <div className="nav-btn">
             <button
-                className={ `nav-btn__button nav-btn__${ props.className }` }
+                className={ `nav-btn__btn nav-btn__${ props.className }` }
                 onClick={ () => history.push(props.path) }
             >
                 { props.title }
